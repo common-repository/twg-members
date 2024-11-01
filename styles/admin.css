@@ -1,0 +1,434 @@
+.twg_visible {
+	display: block !important;
+}
+
+.h_separator {
+	float: left;
+	clear: both;
+	margin-top: 20px;
+}
+
+.twg_edit_icon, .twg_delete_icon {
+	float: right;
+	margin-left: 10px;
+	cursor: pointer;
+	width: 16px;
+	height: 16px;
+}
+
+.twg_edit_icon {
+	background: url("../images/edit.png") left top no-repeat;
+}
+
+.twg_delete_icon {
+	background: url("../images/delete.png") left top no-repeat;
+}
+
+.twg_settings_wrapper {
+	width: 95%;
+	margin: 30px auto;
+}
+
+.twg_settings_wrapper h1 {
+	color: #454545;
+	font-family: Courier, Verdana, Arial;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.twg_settings_wrapper h2 {
+	clear: both;
+	border-bottom: 1px solid #CCCCCC;
+    color: #999999;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 40px;
+    padding-bottom: 7px;
+    width: 594px;
+}
+
+.twg_settings_wrapper h3 {
+	margin: 0;
+	color: #CC0000;
+	font-family: Verdana, Arial;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.twg_settings_wrapper h4 {
+	color: #0077AB;
+	font-family: Verdana, Arial;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.twg_settings_wrapper .twg_settings_content {
+	margin: 0 auto;
+	width: 85%;
+	padding: 35px;
+	display: none;
+}
+
+.twg_settings_wrapper .twg_settings_content_block {
+	clear: both;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.twg_settings_wrapper .twg_settings_content_block label {
+	float: left;
+	clear: both;
+	margin-bottom: 10px;
+	padding-left: 2px;
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	color: #606060;
+}
+
+.twg_settings_wrapper .twg_settings_content_block .twg_settings_textarea {
+	float: left;
+	clear: both;
+	width: 510px;
+	height: 250px;
+	border: 1px solid #DFDFDF;
+}
+
+.twg_settings_wrapper .twg_settings_content_block .twg_settings_textfield {
+	float: left;
+	width: 200px;
+	border: 1px solid #DFDFDF;
+	margin-top: -1px;
+	margin-left: 10px;
+}
+
+.twg_settings_wrapper .twg_settings_content_block .twg_settings_dropdown {
+	float: left;
+	width: 200px;
+	border: 1px solid #DFDFDF;
+	margin-top: -1px;
+	margin-left: 10px;
+}
+
+.twg_settings_wrapper .twg_settings_submit_block {
+	float: left;
+	clear: both;
+	margin-top: 30px;
+}
+
+.twg_settings_wrapper .twg_settings_content .twg_settings_errors_block {
+	float: left;
+	clear: both;
+	overflow: auto;
+	padding: 10px;
+	margin-top: 50px;
+	border: 1px solid #CECECE;
+	width: 35%;
+}
+
+.twg_settings_wrapper .twg_settings_content .twg_settings_errors_content_block {
+	margin: 0 auto;
+	width: 80%;
+}
+
+.twg_settings_errors_content_block .twg_settings_content_block label {
+	width: 149px;
+}
+
+.twg_settings_wrapper .twg_settings_submit_block input[type="submit"] {
+	margin-bottom: 100px;
+    margin-left: 520px;
+    margin-top: 25px;
+}
+
+.twg_settings_wrapper ul.twg_settings_tab_bar {
+	list-style: none;
+	list-style-type: none;
+	display: block;
+	float: left;
+	clear: both;
+	margin-top: 15px;
+	margin-left: 39px;
+	margin-bottom: 25px;
+}
+
+.twg_settings_wrapper ul.twg_settings_tab_bar li {
+	display: block;
+	float: left;
+	cursor: pointer;
+	font-family: Verdana;
+	font-size: 13px;
+	font-weight: bold;
+	color: #555555;
+	margin-left: 1px;
+	background-color: #EBEFED;
+	padding: 3px 8px;
+}
+
+.no_select {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+.twg_settings_wrapper ul.twg_settings_tab_bar li.twg_active_tab {
+	background-color: #D18A8A;
+}
+
+.twg_settings_wrapper ul.twg_new_regfields_add,
+.twg_settings_wrapper ul.twg_regfields_edit {
+	width: 244px;
+	list-style: none;
+	list-style-type: none;
+	float: left;
+	clear: both;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #CCCCCC;
+    padding: 10px;
+}
+
+.twg_settings_wrapper ul.twg_new_regfields_add li,
+.twg_settings_wrapper ul.twg_regfields_edit li {
+	display: none;
+}
+
+.twg_settings_wrapper ul.twg_new_regfields_add .twg_newfield_row,
+.twg_settings_wrapper ul.twg_regfields_edit .twg_newfield_row {
+	clear: both;
+	margin-bottom: 12px;
+}
+
+.twg_settings_wrapper ul.twg_new_regfields_add .twg_newfield_lastrow,
+.twg_settings_wrapper ul.twg_regfields_edit .twg_newfield_lastrow {
+	margin-bottom: 0;
+}
+
+.twg_settings_wrapper ul.twg_new_regfields_add input,
+.twg_settings_wrapper ul.twg_new_regfields_add select,
+.twg_settings_wrapper ul.twg_regfields_edit input,
+.twg_settings_wrapper ul.twg_regfields_edit select {
+	float: right;
+	margin-left: 15px;
+	width: 143px;
+	height: 22px;
+}
+
+.twg_settings_wrapper input[name="newregfield_ftype"] {
+	margin-right: 26px;
+}
+
+.twg_settings_wrapper .twg_new_registration_fields h3 ,
+.twg_settings_wrapper .twg_edit_registration_fields h3 {
+	clear: both;
+	margin-bottom: 10px;
+}
+
+#twg_new_regfields_adder {
+	clear: both;
+    float: left;
+    margin-left: 194px;
+    margin-top: -6px;
+}
+
+.twg_edit_registration_fields #twg_new_regfields_adder {
+	margin-left: 221px;
+    margin-top: -28px;
+}
+
+#twg_edit_regfield_cancel {
+	clear: both;
+    float: right;
+    margin-right: 83px;
+    position: relative;
+    top: -3px;
+}
+
+.twg_new_fieldvals {
+	float: right;
+	clear: both;
+	overflow-x: hidden;
+	overflow-y: auto;
+	margin-right: 1px;
+	padding: 0 5px;
+	padding-top: 2px;
+	width: 131px;
+	height: 70px;
+	border: 1px solid #DFDFDF;
+	background: #FFFFFF;
+}
+
+.twg_field_val {
+	clear: left;
+    color: #565656;
+    cursor: pointer;
+    font-family: verdana;
+    font-size: 12px;
+	background-color: #FFFFFF;
+}
+
+.twg_new_fieldval_adder {
+	float: right;
+	cursor: pointer;
+	margin-top: 4px;
+	margin-right: -10px;
+	width: 16px;
+	height: 16px;
+	background: url("../images/plus.png") no-repeat;
+}
+
+.twg_fieldval_remover {
+	cursor: pointer;
+    float: left;
+    height: 13px;
+    padding-top: 3px;
+    width: 16px;
+	background: url("../images/minus.png") #555555 no-repeat;
+}
+
+.twg_field_val.twg_active {
+	background-color: #555555;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-weight: bold;
+    padding-left: 3px;
+    padding-right: 3px;
+    width: 109px;
+}
+
+.twg_settings_register h4 {
+	float: left;
+	clear: both;
+	margin-top: 30px;
+	margin-left: -50px;
+}
+
+.twg_set_registration_fields {
+	border: 1px solid #CCCCCC;
+    clear: both;
+    float: left;
+    padding: 20px 20px 13px;
+	width: 467px;
+}
+
+.twg_new_registration_fields,
+.twg_edit_registration_fields {
+	clear: both;
+    float: left;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.twg_registration_field {
+	float: right;
+}
+
+.twg_registration_field_row {
+	clear: both;
+    float: left;
+    margin-bottom: 10px;
+    width: 467px;
+	position: relative;
+}
+
+.twg_pseudofield_text {
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+    height: 18px;
+    padding: 2px 4px;
+    width: 192px;
+}
+
+.twg_pseudofield_textarea {
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+    height: 74px;
+    padding: 3px 6px;
+    width: 188px;
+}
+
+.twg_pseudofield_dropdown {
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+    height: 18px;
+    padding: 2px 25px 2px 4px;
+    width: 171px;
+}
+
+.twg_regfield_proto_label {
+	float: left;
+}
+
+.twg_dropdown_arrow {
+	width: 22px;
+	height: 22px;
+	background: url("../images/dd_arrow.png") 1px 1px no-repeat #EBEBEB;
+}
+
+.twg_fake_dropdown_contents {
+	border: 1px solid #CCCCCC;
+	background-color: #FFFFFF;
+}
+
+.twg_fake_dropdown_value {
+	height: 22px;
+}
+
+.twg_edit_icon.disabled {
+	cursor: default;
+	background: url("../images/edit_disabled.png") no-repeat;
+}
+
+.twg_delete_icon.disabled {
+	cursor: default;
+	background: url("../images/delete_disabled.png") no-repeat;
+}
+
+.twg_field_editing {
+	background-color: #F78181;
+    margin-left: -5px;
+    padding: 5px;
+}
+
+.twg_field_editing .twg_registration_field {
+	margin-right: 5px;
+}
+
+.twg_settings_updated_bar {
+	display: none;
+	background-color: #EBEFED;
+    clear: both;
+	cursor: pointer;
+    color: #565656;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    margin-bottom: 31px;
+    overflow: hidden;
+    padding-left: 15px;
+    padding-top: 13px;
+}
+
+.twg_registration_field_row .twg_edit_icon, .twg_registration_field_row .twg_delete_icon {
+	margin-top: 4px;
+}
+
+.twg_register_settings_general {
+	float: left;
+	width: 500px;
+}
+
+.twg_register_settings_general .twg_settings_content_block label {
+	width: 265px;
+}
+
+.twg_register_settings_general .twg_settings_content_block input[type="checkbox"] {
+	margin-top: 4px;
+	margin-left: 10px;
+}

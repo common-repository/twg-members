@@ -1,0 +1,121 @@
+.twg_reg_error {
+	cursor: pointer;
+	border: 1px solid #CC0000;
+	background-color: #FFFFFF;
+}
+
+.twg_my_profile_private_txt {
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: bold;
+    color: #555555;
+    vertical-align: 3px;
+}
+
+.twg_my_profile_wrapper {
+    width: 450px;
+}
+
+.twg_my_profile_row {
+    clear: both;
+    float: left;
+    margin: 8px 0;
+}
+
+.twg_my_profile_row .twg_myprofile_label {
+    display: block;
+    float: left;
+    width: 200px;
+}
+
+.twg_my_profile_row .twg_my_profile_valuebox {
+    float: right;
+    width: 250px;
+}
+
+.twg_my_profile_row input[type="text"],
+.twg_my_profile_row input[type="password"],
+.twg_my_profile_row select,
+.twg_my_profile_row textarea {
+    width: 175px;
+    border: 1px solid #CCCCCC;
+}
+
+.twg_my_profile_row input[type="password"] {
+    width: 179px;
+}
+
+.twg_my_profile_row select {
+    width: 182px;
+}
+
+.twg_my_profile_row textarea {
+    height: 70px;
+}
+
+#twg_update_profile_btn {
+    background-color: #777777;
+    border: 1px solid #666666;
+    clear: both;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: bold;
+    height: 23px;
+    margin-left: 199px;
+    margin-top: 8px;
+    width: 100px;
+}
+
+.twg_public_profile_wrapper {
+    width: 450px;
+    font-family: Verdana;
+    font-size: 12px;
+}
+
+.twg_public_profile_row .twg_public_profile_title {
+    float: left;
+    width: 200px;
+    font-weight: bold;
+    color: #555555;
+}
+
+.twg_public_profile_row .twg_public_profile_value {
+    float: right;
+    width: 250px;
+    color: #888888w;
+}
+
+.twg_memberlist_member_wrapper {
+    float: left;
+    clear: both;
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #EBEBEB;
+    border: 1px solid #CCCCCC;
+    font-family: Arial;
+    font-size: 12px;
+    color: #333333;
+    width: 250px;
+}
+
+.twg_memberlist_member_wrapper .twg_memberlist_row {
+    clear: both;
+}
+
+.twg_memberlist_member_wrapper .twg_memberlist_title {
+    float: left;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+.twg_memberlist_member_wrapper .twg_memberlist_value {
+    float: left;
+    margin-left: 12px;
+}
+
+.twg_memberlist_member_wrapper .twg_memberlist_view_link {
+    clear: both;
+}
